@@ -1,15 +1,14 @@
 import nodemailer from "nodemailer";
 
 const email = "kingvidoski@gmail.com";
-const password = "pgvdxknzzbnnfxec";
 
 export const transporter = nodemailer.createTransport({
-  host: "smtp-relay.brevo.com",
+  host: process.env.NEXT_PUBLIC_HOST,
   port: 587,
-  secure: false, // Use TLS
+  secure: false,
   auth: {
-    user: "954840001@smtp-brevo.com",
-    pass: "IMYSPV68fQ3skXLO",
+    user: process.env.NEXT_PUBLIC_USER,
+    pass: process.env.NEXT_PUBLIC_PASS,
   },
 });
 

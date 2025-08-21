@@ -11,19 +11,24 @@ import { fadeIn } from "@/config/varient";
 
 const accordionData = [
   {
-    title: "What is Next.js?",
+    title: "What services do you offer as a financial accounting consultant?",
     content:
-      "Next.js is a React framework for building full-stack web applications.",
+      "I provide services such as bookkeeping, financial reporting, tax preparation, auditing support, business advisory, and strategic financial planning tailored to your business needs.",
   },
   {
-    title: "How to install?",
+    title: "How can financial consulting benefit my business?",
     content:
-      "You can install Next.js by running `npx create-next-app@latest` in your terminal.",
+      "Financial consulting helps you make informed decisions, manage cash flow effectively, reduce risks, stay compliant with regulations, and plan for long-term growth.",
   },
   {
-    title: "Is it SEO friendly?",
+    title: "Do you work with individuals as well as businesses?",
     content:
-      "Yes, Next.js supports server-side rendering and static site generation, which are great for SEO.",
+      "Yes, I work with both individuals and businesses—ranging from startups to established organizations—helping with personal financial management, tax planning, and investment strategies.",
+  },
+  {
+    title: "How do you ensure confidentiality of financial information?",
+    content:
+      "Confidentiality is a top priority. I follow strict professional standards, use secure systems, and ensure all client information remains private and protected.",
   },
 ];
 

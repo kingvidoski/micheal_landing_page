@@ -22,7 +22,7 @@ export const AccordionItem = ({
   onClick,
 }: Props) => {
   return (
-    <div className="border-b border-gray-200 overflow-hidden">
+    <div className="border-b border-gray-200 overflow-hidden pb-2">
       <div className="flex items-center pl-5 px-2">
         <Text
           as="h2"
